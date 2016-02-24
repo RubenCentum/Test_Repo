@@ -20,10 +20,6 @@ class Android_Softphone(unittest.TestCase):
         desired_caps['appActivity'] = 'cz.acrobits.provisioning.ui.ProvisioningActivity'
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
  
-    def tearDown(self):
-        "Tear down the test"
-        self.driver.quit()
- 
     def test_wifi_connection(self):
         "Testing the Softphone app"
  
