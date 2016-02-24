@@ -6,6 +6,8 @@ Qxf2: Example script
 import unittest, time, os
 from appium import webdriver
 from time import sleep
+
+#Some new code
  
 class Android_Softphone(unittest.TestCase):
     "Class to run tests against the Softphone app"
